@@ -5,20 +5,20 @@
     <button class="close-button" type="button" aria-label="Close map"></button>
   </section>
 
-  <section class="contact-popup hidden">
+  <section class="contact-popup popup hidden">
     <h2 class="visually-hidden">Contact us</h2>
-    <form class="contact-popup-form" method="post" action="">
+    <form class="popup-form" method="post" action="">
       <button class="close-button" type="button" aria-label="Close form"></button>
 
-      <div class="contact-popup-container">
-        <p class="contact-popup-input">
+      <div class="popup-container">
+        <p class="contact-popup-input popup-input">
           <label for="name">Full name:</label>
           <input type="text" name="name" id="name" placeholder="Full name" />
         </p>
 
-        <p class="contact-popup-input">
+        <p class="contact-popup-input popup-input">
           <label for="email">E-mail:</label>
-          <input type="email" name="email" id="email" placeholder="email@example.com" />
+          <input type="email" name="email" id="contact-email" placeholder="email@example.com" />
         </p>
       </div>
 
@@ -26,6 +26,53 @@
       <textarea name="text" id="text" placeholder="Write your comment"></textarea>
 
       <button class="button popup-button" type="submit">Send</button>
+    </form>
+  </section>
+
+  <section class="signin-popup popup hidden">
+    <form class="popup-form" method="post" action="">
+      <button class="close-button" type="button" aria-label="Close form"></button>
+      <h2 class="popup-title">Sign In</h2>
+      <div class="popup-container">
+        <p class="popup-input">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="email@example.com" />
+        </p>
+
+        <p class="popup-input">
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" placeholder="perfectpasswordever" />
+        </p>
+
+        <p class="signin-popup-text popup-text signup-link">Don't have an account? Sign up!</p>
+      </div>
+
+      <button class="button popup-button" type="submit">Sign in</button>
+    </form>
+  </section>
+
+  <section class="signup-popup popup hidden">
+    <form class="popup-form" method="post" action="">
+      <button class="close-button" type="button" aria-label="Close form"></button>
+      <h2 class="popup-title">Sign Up</h2>
+      <div class="popup-container">
+        <p class="popup-input">
+          <label for="email">Full name:</label>
+          <input type="text" name="name" id="name" placeholder="Lisa Tompson" />
+        </p>
+
+        <p class="popup-input">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="email@example.com" />
+        </p>
+
+        <p class="popup-input">
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" placeholder="perfectpasswordever" />
+        </p>
+      </div>
+
+      <button class="button popup-button" type="submit">Sign up</button>
     </form>
   </section>
 

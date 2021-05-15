@@ -2,7 +2,7 @@
     <div class="main-container">
       <div class="footer-block">
         <div class="logo-link-wrapper">
-          <a class="logo-link" href="index.html">
+          <a class="logo-link" href="index.php">
             <svg class="main-logo" xmlns="http://www.w3.org/2000/svg" width="163" height="35" viewBox="0 0 163 35">
               <defs>
                 <style>
@@ -84,10 +84,9 @@
     </div>
   </footer>
 
-  <script src="js/min.script.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 
 </html>
 
-<?php require 'hotreloader.php' ?> 

@@ -7,15 +7,14 @@
     <meta name="description" content="electro idevice device gopro drone">
     <meta name="author" content="Kortoshkina Katerina">
     <title>iDevice Electro Inc.</title>
-    <!-- ADD FAVICON -->
     <link rel="shortcut icon" href="img/favicon.png">
     <link href="css/normalize.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link href="css/min.style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 </head>
 
-<body class="index-page">
+<body class="page">
   <div class="main-container">
     <header class="main-header">
       <a class="logo-link" href="index.php">

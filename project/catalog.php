@@ -1,3 +1,6 @@
+
+
+
 <?php require __DIR__ . '/includes/header.php' ?>
 
 
@@ -102,94 +105,7 @@
           <div class="content-container">
             <section class="catalog">
               <h2 class="visually-hidden">Products</h2>
-              <ul class="catalog-list">
-                <li class="catalog-item">
-                  <article class="catalog-item-block">
-                    <a class="catalog-item-link" href="#">
-                      <img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
-                    </a>
-                    <div class="catalog-description-wrapper">
-                      <h1 class="catalog-item-description"><a href="#">Любительская селфи-палка</a></h1>
-                      <span class="catalog-item-price">500 руб.</span>
-                    </div>
-                    <div class="catalog-item-hover">
-                      <a class="button catalog-button" href="#">В корзину</a>
-                      <a class="catalog-compare-link" href="#">Добавить к сравнению</a>
-                    </div>
-                  </article>
-                </li>
-
-                <li class="catalog-item">
-                  <article class="catalog-item-block">
-                    <a class="catalog-item-link" href="#">
-                      <img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
-                    </a>
-                    <div class="catalog-description-wrapper">
-                      <h1 class="catalog-item-description"><a href="#">Профессиональная селфи-палка</a></h1>
-                      <span class="catalog-item-price">1 500 руб.</span>
-                    </div>
-                    <div class="catalog-item-hover">
-                      <a class="button catalog-button" href="#">В корзину</a>
-                      <a class="catalog-compare-link" href="#">Добавить к сравнению</a>
-                    </div>
-                  </article>
-                </li>
-
-                <li class="catalog-item">
-                  <article class="catalog-item-block">
-                    <a class="catalog-item-link" href="#">
-                      <img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
-                    </a>
-                    <div class="catalog-description-wrapper">
-                      <h1 class="catalog-item-description"><a href="#">Непотопляемая селфи-палка</a></h1>
-                      <span class="catalog-item-price">2 500 руб.</span>
-                    </div>
-                    <div class="catalog-item-hover">
-                      <a class="button catalog-button" href="#">В корзину</a>
-                      <a class="catalog-compare-link" href="#">Добавить к сравнению</a>
-                    </div>
-                  </article>
-                </li>
-
-                <li class="catalog-item">
-                  <article class="catalog-item-block">
-                    <a class="catalog-item-link" href="#">
-                      <img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка &laquo;Следуй за мной&raquo;">
-                      <span class="catalog-item-new">New</span>
-                    </a>
-                    <div class="catalog-description-wrapper">
-                      <h1 class="catalog-item-description"><a href="#">Селфи-палка &laquo;Следуй за мной&raquo;</a></h1>
-                      <span class="catalog-item-price">4 900 руб.</span>
-                    </div>
-                    <div class="catalog-item-hover">
-                      <a class="button catalog-button" href="#">В корзину</a>
-                      <a class="catalog-compare-link" href="#">Добавить к сравнению</a>
-                    </div>
-                  </article>
-                </li>
-              </ul>
-            </section>
-
-            <section class="pages">
-              <h2 class="visually-hidden">Pages</h2>
-              <ul class="pages-list">
-                <li class="pages-item">
-                  <a class="pages-item-link">Back</a>
-                </li>
-                <li class="pages-item">
-                  <a class="pages-item-link current-page">1</a>
-                </li>
-                <li class="pages-item">
-                  <a class="pages-item-link" href="#">2</a>
-                </li>
-                <li class="pages-item">
-                  <a class="pages-item-link" href="#">3</a>
-                </li>
-                <li class="pages-item">
-                  <a class="pages-item-link" href="#">Next</a>
-                </li>
-              </ul>
-            </section>
+              <?php require __DIR__ . '/components/ProductDisplay.php'; ?>
           </div>
 
         </div>

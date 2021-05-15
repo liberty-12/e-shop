@@ -1,7 +1,7 @@
 <?php require __DIR__ . '/includes/header.php' ?>
 
 
-  <main class="main">
+  <main class="main main--main">
     <div class="main-container">
       <h1 class="visually-hidden">Main page</h1>
       <div class="slider-wrapper">
